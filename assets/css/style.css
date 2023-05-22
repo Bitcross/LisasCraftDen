@@ -1030,5 +1030,11 @@ section {
 }
 
 #footer .copyright span {
-  color: var(--color-primary);
+	color: var(--color-primary);
+}
+
+@media (max-width: 1279px) {
+	.follow-button {
+		margin-left: 55px;
+	}
 }
